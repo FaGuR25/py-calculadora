@@ -3,6 +3,7 @@ import os
 
 from multiplicacion import multiplicacion
 from resta import resta
+from suma import suma
 
 
 def Menu():
@@ -15,6 +16,7 @@ def Menu():
 
         if accion == '1':
             os.system('cls')
+            suma(num1=num1,num2=num2)
         elif accion =='2':
             os.system('cls')
             resta(num1=num1,num2=num2)
