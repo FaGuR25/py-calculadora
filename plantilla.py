@@ -1,5 +1,2 @@
-def funcname(num1:int, num2:int):
-    """
-    docstring
-    """
-    pass
+def division(num1:float, num2:float)->float:
+    return num1/num2
