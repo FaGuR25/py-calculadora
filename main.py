@@ -14,12 +14,12 @@ def Menu():
 
         if accion == '1':
             os.system('cls')
-            multiplicacion(num1=num1,num2=num2)
         elif accion =='2':
             os.system('cls')
 
         elif accion =='3':
             os.system('cls')
+            multiplicacion(num1=num1,num2=num2)
 
         elif accion =='4':
             os.system('cls')
