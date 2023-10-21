@@ -55,5 +55,5 @@ docker pull tdtxle/py_caluladora
 ```
 3. Ejecutamos la imagen con el comando
 ```sh
-docker run tdtxle/py_caluladora
+docker run -it tdtxle/py_caluladora:2
 ```

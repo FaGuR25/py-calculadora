@@ -1,8 +1,10 @@
 FROM python:3.9.18-slim
 
-WORKDIR app
+ENV TERM xterm
 
-COPY . .
+WORKDIR /app
+
+COPY . /app
 
 
 CMD [ "python", "main.py" ]
