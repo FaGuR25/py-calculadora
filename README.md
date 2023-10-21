@@ -51,9 +51,10 @@ Desarrollar una aplicación de calculadora simple que permita a los usuarios rea
 
 1. para instalar ewl programa primero debemos bajar la imagen de docker
 ```sh
-docker pull tdtxle/py_caluladora
+docker pull tdtxle/py_caluladora:2
 ```
 3. Ejecutamos la imagen con el comando
 ```sh
 docker run -it tdtxle/py_caluladora:2
 ```
+docker pull tdtxle/py_caluladora:2
